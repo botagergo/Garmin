@@ -1,0 +1,23 @@
+<layout id="WatchFace">
+    <label text=""/>
+
+    <drawable id="Time" class="TimeWithSeconds">
+        <param name="x">370</param>
+        <param name="y">160</param>
+    </drawable>
+
+    <bitmap id="HeartRateImg" x="130" y="85" filename="../drawables/heartrate.png"/>
+    <label id="HeartRateLabel" justification="Gfx.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_XTINY" x="154" y="135"/>
+
+    <bitmap id="BatteryImg0" x="265" y="85" filename="../drawables/battery_0.png" visible="false"/>
+    <bitmap id="BatteryImg25" x="265" y="85" filename="../drawables/battery_25.png" visible="false"/>
+    <bitmap id="BatteryImg50" x="265" y="85" filename="../drawables/battery_50.png" visible="false"/>
+    <bitmap id="BatteryImg75" x="265" y="85" filename="../drawables/battery_75.png" visible="false"/>
+    <bitmap id="BatteryImg100" x="265" y="85" filename="../drawables/battery_100.png" visible="false"/>
+    <label id="BatteryLabel" justification ="Gfx.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_XTINY" x="292" y="135"/>
+
+    <label id="DateLabel" justification="Gfx.TEXT_JUSTIFY_RIGHT" font="Gfx.FONT_XTINY" x="260" y="320"/>
+    <label id="TemperatureLabel" justification="Gfx.TEXT_JUSTIFY_RIGHT" font="Gfx.FONT_XTINY" x="340" y="320"/>
+
+    <bitmap id="WeatherImg" x="345" y="320" filename="../drawables/clear-day.svg" visible="true"/>
+</layout>

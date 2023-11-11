@@ -1,0 +1,14 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="ClearDay" filename="clear-day.svg" />
+    <bitmap id="Rain" filename="rain.svg" />
+    <bitmap id="RainSnow" filename="rain_snow.svg" />
+    <bitmap id="Frost" filename="frost.svg" />
+    <bitmap id="Fog" filename="fog.svg" />
+    <bitmap id="Snow" filename="snow.svg" />
+    <bitmap id="Wind" filename="wind.svg" />
+    <bitmap id="Thunderstorms" filename="thunderstorms.svg" />
+    <bitmap id="Cloudy" filename="cloudy.svg" />
+    <bitmap id="Hail" filename="hail.svg" />
+    <bitmap id="Dust" filename="dust.svg" />
+</drawables>
